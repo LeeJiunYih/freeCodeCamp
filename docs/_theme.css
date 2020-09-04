@@ -322,3 +322,7 @@ a.anchor {
 .markdown-section h2 {
   margin: 0 0 0.8em;
 }
+
+-markdown-section2 h1 {
+  margin: 0 auto;
+}
