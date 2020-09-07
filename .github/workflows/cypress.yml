@@ -54,3 +54,8 @@ jobs:
           # left for testing.
           wait-on-timeout: 1200
           config: baseUrl=http://localhost:8000
+      
+      - name: Cypress coverage summary
+        run: |
+          npm install -D @cypress/code-coverage
+          npx nyc report --reporter=text-summary
